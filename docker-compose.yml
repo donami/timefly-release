@@ -3,7 +3,7 @@ services:
   backend:
     build: .
     container_name: 'backend'
-    image: donami/react-app
+    image: donami/timefly-backend
     environment:
       - NODE_ENV=production
       - MONGODB_URI=mongodb://donami:hejsan123@ds139722.mlab.com:39722/timefly
